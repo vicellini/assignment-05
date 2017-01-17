@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+   width: 100%;
+   display: inline-block;
+   font-size: 0;
+}
+
+.app-container {
+  max-width: 1000px;
+  font-family: "Helvetica Neue, Helvetica, sans-serif";
+}
+
+header {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 50px;
+}
+.logo img {
+  flex-shrink: 0;
+  min-width: 10%;
+  min-height: 100%;
+}
+
+.label img {
+  flex-shrink: 0;
+  min-width: 40%;
+  min-height: 100%;
+}
+
+/* NAV BAR */
+
+.nav-bar {
+  background: rgb(245,245,245);
+  width: 925px;
+  height: auto;
+  margin-left: 20px
+}
+
+.nav-bar button {
+  background: #E4AFAD;
+  padding: 5px 7px;
+  margin: 0 7px;
+  border: none;
+  border-left: 1px solid #0f0f0f;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #6285B1;
+}
+
+/* BODY */
+
+.architect {
+  margin-left: 20px;
+  font-family: "Helvetica Neue, Helvetica, sans-serif";
+}
+.column-container {
+  font-size: 0
+}
+
+.about {
+  display: inline-block;
+  font-size: medium;
+  vertical-align: top;
+  width: 75%;
+}
+
+.future-events {
+  display: inline-block;
+  font-size: medium;
+  vertical-align: top;
+  width: 25%;
+}
+
+
+/* ABOUT */
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  font-style: bold;
+}
+
+.about p {
+  font-size: 15px;
+}
+
+/* FUTURE CAMPUS */
+
+.text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  width: 50%;
+}
+
+.text a {
+  text-decoration: none;
+  color: #5381B5;
+}
+
+.information img {
+  vertical-align: top;
+  display: inline-block;
+  font-size: medium;
+  width: 50%;
+  padding-bottom: 20px;
+  transform: translateY(-10px);
+}
+
+/* AlFRED */
+
+.alfred {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  width: 50%;
+}
+
+
+.school img {
+  vertical-align: top;
+  display: inline-block;
+  font-size: medium;
+  width: 50%;
+  padding: 0 20px 30px 0;
+}
+
+/* UPCOMING EVENTS */
+
+.event-list {
+ font-size: 0;
+ border-bottom: #B2B2B2 dotted 1px;
+}
+
+.preview {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  width: 40%;
+  padding: 8px;
+}
+
+.event {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  width: 60%;
+  padding-top: 20px;
+}
+
+h3 {
+  margin: 0 auto;
+}
+
+.event h4 {
+  margin: 0 auto;
+  font-size: 8px;
+  color: #B2B2B2;
+
+}
+
+.event a {
+  text-decoration: none;
+  color: #000;
+  font-size: 10px;
+  line-height: 0.7;
+  font-weight: 700;
+}
+
+.event p {
+  font-size: 8px;
+}
+
+.view-all {
+  text-align: right;
+  color: #000;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+/* FOOTER */
+
+.site-links {
+  font-size: 0;
+}
+
+footer p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  width: 25%;
+  font-size: 10px;
+  /*padding: 20px;*/
+  margin: 10px 0;
+}
+
+.arrow {
+  color: #CC5E4B;
+  font-size: 7px;
+}
+
+/* FIXED BAR */
+
+.options {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  background-color: #3A539B;
+  width: 250px;
+  padding: 5px 10px;
+  font size: 8px;
+
+}
+
+.options i {
+  color: #DB4B38;
+}
+.options p {
+  color: #fff;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+.options form {
+  width: 400px;
+  height: 22px;
+}
+
+.options input[type=text] {
+  width: 200px;
+  height: auto;
+  margin: -4px auto;
+  padding-bottom: 3px;
+}
+
+.options button {
+  position: relative;
+  transform: translateY(-6px);
+  transform: translateX(-6px);
+  padding: 6px 7px 5px;
+  background: #F1F4F2;
+  font-size: 8px;
+  border: 1px solid #425A9E;
+  width: auto;
+}
+
+.options .fa-search {
+  color: #0F0F0F;
+}
